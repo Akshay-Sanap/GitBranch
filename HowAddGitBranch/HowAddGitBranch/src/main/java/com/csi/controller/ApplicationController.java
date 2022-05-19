@@ -13,5 +13,10 @@ public class ApplicationController {
         return "Welcome To Step Up";
         }
 
+    @GetMapping("/product")
+    public String product(){
+        return "Assistant Engineer Course";
+    }
+
 
 }
